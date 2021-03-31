@@ -1,0 +1,6 @@
+1. In case you are not logged in, and you try to go to an authorized needed url, you will be redirected to the index page.
+2. When getting table data, the request is sent via ajax and the data is stored and displayed by datatabe.
+3. When adding data, the data is validated by jquery validation before being sent to the server.
+4. When editing, the add form is switched into a edit form, by Jquery and the user can or edit or cancel it, when done editing the form is cahnged back into the add form.
+5. The data is paginated, and you can specify the pagination limit.
+6. The CRUD is all fully done via Jquery and ajax requsts limiting the number of page refreshes.
