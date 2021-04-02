@@ -10,6 +10,7 @@
 	- pip install mysqlclient
 	
 ## Setting up server: Run the following commands
+	- [user@azkatech:~/azkatech]$pip install requirments.txt
 	- [user@azkatech:~/azkatech]$python manage.py makemigrations my_app
 	- [user@azkatech:~/azkatech]$python manage.py migrate
 	- [user@azkatech:~/azkatech]$python manage.py createsuperuser
